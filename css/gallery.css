@@ -1,0 +1,80 @@
+/* -- Gallery CSS start -- */
+
+.billboard {
+    background-image: url("../images/wood.jpg");
+    height: auto;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;  
+  }
+
+
+.container {
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.subheader {
+    text-align: center;
+    /* padding: 10px; */
+    background-color: #361a04;
+    color: rgb(227, 218, 120);
+}
+
+h2.subheader {
+    font-size: 20pt;
+    color: rgb(227, 218, 120);
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+ul.follow-me {
+    list-style: none;
+    text-align: center;
+}
+
+ul.gallery1 {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+ul.gallery2 {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+ul.gallery3 {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+
+li {   
+    margin: 5px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    padding: 5px;
+    box-shadow: 0 3px 18px -4px rgba(0, 0, 0, 0.8);
+}
+    
+
+figcaption {
+    padding-top: 0px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: white;
+}
+
+/* -- Gallery CSS end -- */

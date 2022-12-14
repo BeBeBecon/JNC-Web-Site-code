@@ -1,0 +1,78 @@
+/* -- Animals CSS start -- */
+
+
+ /* Allows box to take up full space, ignoring padding/margin */
+
+ * {
+    box-sizing: border-box;
+  }
+
+ /* Create two equal columns that floats next to each other */
+ .billboard {
+   background-image: url("../images/wood.jpg");
+   height: auto;
+   background-repeat: repeat-y;
+   background-position: center;
+   background-size: cover;  
+ }
+
+ .subheader {
+    font-size: 20pt;
+    text-align: center;
+    background-color: #3E606F;
+    color: rgb(255, 255, 255);
+}
+ 
+ .my-column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+ }
+
+ .my-column p {
+    margin: 0em 0em;
+    font-size: 20px;
+    float: left;
+    margin-left: 0%;
+ }
+ 
+ .my-row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .flexible {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ img.animals {
+    width: 300px;
+ }
+
+ .margin-auto > div {
+    margin:auto;
+    width:50%;
+    background-color:rgb(177, 177, 123);
+    text-align:center;
+ }
+
+ /* flexible image rules start here */
+ 
+ .flexible img {
+    width:100%;
+ }
+  
+ .flexible {
+    display: flex;
+    justify-content: space-evenly;
+ }
+  
+ /* flexible image rules end here */
+ 
+/* -- Animals CSS end -- */
+
+
+

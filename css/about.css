@@ -1,0 +1,148 @@
+/* -- About us CSS start -- */
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-image: url("../images/grassland1.jpg") ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    max-width: 100%;
+    height: auto;
+}
+  
+.about-header {
+    background-color: #3E606F;
+}
+
+a {
+   /* Typography Declrations */
+   font-weight: bold;
+   text-decoration: none;
+   color: #77a915;
+}
+  
+a:hover {
+    /* Brand color */
+    color: #FCFFF5;
+}
+
+/*
+a:visited {
+    color: #ffffff;
+}
+*/
+
+h1 {
+    color: #3E606F;
+}
+  
+h2 {
+    color: #193441;
+    margin-left: 0.3em;
+}
+
+h4 {
+    color:#193441;
+    margin-left: 0.5em
+} 
+
+.location-section p {
+    margin-left: 0.5em;
+}
+
+.contact-section p {
+    margin-left: 0.5em;
+}
+
+.contact-section a {
+    margin-left: 0.5em;
+}
+
+
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+    color: #FFF;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://bit.ly/1Yf2Psj');
+    background-color: #1FAAFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: -0.02em;
+}
+
+.introduction-section h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2.contact-section {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.introduction-section, 
+.location-section,
+.contact-section {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background-color: rgb(207, 213, 213);
+    
+}
+
+.contact-section img {
+    width: 40em;
+    margin-top: 1em;
+}
+ 
+.location-section h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+.contact-section {
+    margin-bottom: 2em;
+}
+
+  
+footer {
+    text-align: center;
+    background-color: #36647F;
+    color: #FFFFFF;
+    padding: 2em;
+}
+  
+.side-padding {
+      /* Layout Declarations */
+      padding-left: 2em;
+      padding-right: 2em;
+}
+
+
+
+/* -- About us CSS end -- */

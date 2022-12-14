@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>JNC LIVESTOCK website homepage</title>
+  <title>JNC LIVESTOCK website Contact form</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/globalrule.css" />
-  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/contact2.css" />
+  <link rel="stylesheet" href="css/form.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <!-- SNS icon CSS -->
   <link rel="stylesheet" href="css/sns-icon.css" />
@@ -23,21 +24,21 @@
       <!-- <li><a href="https://www.youtube.com"></a></li> -->
     </ul>
   </div>
-  <!-- SNS icon end -->
+
  </head>
 
  <body>
-    <!-- Header Start-->
-    <header class="site-header">
+  <!-- Header Start-->
+  <header class="site-header">
       <nav class="topnav" id="myTopnav">
-        <a href="template.html" class="brand">JNC LIVESTOCK</a>
+        <a href="index.html" class="brand">JNC LIVESTOCK</a>
 
           <div class="nav-item">
-            <a class="active" href="template.html">Home</a>
+            <a class="disabled" href="index.html">Home</a>
             <a class="disabled" href="animals.html">Animals</a>
             <a class="disabled" href="gallery.html">Gallery</a>
             <a class="disabled" href="about.html">About us</a>
-            <a class="disabled" href="contact2.php">Contact</a>              
+            <a class="active" href="contact2.php">Contact</a>              
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
           </div>              
           <!-- If you want to add navbar dropdown 
@@ -52,35 +53,46 @@
             </div>
            </div> -->
 
-          </nav>
+      </nav>
+
     </header>
-    <!-- Header End -->
+  <!-- Header End -->
 
-    <h2 class="subheader">(What you want to say)</h2>
+  <!-- Contact1 Simple Form start -->
+  <div class="wrapper">
+    <h2 class="header-column">Contact Us!</h2>
 
-    <div class="wrapper">
-     
-     <img class="desktop" src="https://jooinn.com/images/cattle-farm-91.jpg" alt="Photo of farm view" />
-     <img class="tablet" src="images/cow4.jpg" alt="Photo of farm view" />
-     <img class="phone" src="images/farm2.jpg" alt="a small Photo of farm view" />
-       
-       
-       <p>Hello </p>
+    <div class="contact-form">
+      	<?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
 
-       <p>One </p>
-
-       <p>Two</p>
+        include 'includes/contact2_include.php'; #site keys & code here
     
+        $toAddress = "garcesj2010@gmail.com";  //Maybe Gmail doesn't work
+        $toName = "Jayson"; 
+        $website = "JNC LIVESTOCK website";  
+
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
+        
+       ?>
     </div>
-   <div>
-     <footer>
-      <p><small>&copy; 2022 by 
+  </div>
+  <!-- Contact1 Simple Form end -->
+
+    
+    <footer>
+     <p><small>&copy; 2022 by 
           <a href="contact2.php">JNC LIVESTOCK</a>, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
     </footer>
-   </div>
      
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
      
@@ -99,7 +111,7 @@
             x.className = "topnav";
         }
     }   
- </script>
+  </script>
      
  </body>
 </html>

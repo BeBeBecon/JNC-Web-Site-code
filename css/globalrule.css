@@ -1,0 +1,69 @@
+/* -- Global rules start -- */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 2.5em;
+    /* Background 
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: 2000px 1200px;
+    */
+}
+
+::selection {
+    color: #000; 
+    background: #ff0;
+}
+
+body {
+    background-image: url("../images/bluesky1.jpg") ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    max-width: 100%;
+    height: 100px;
+    background-position: top;
+}
+
+body{
+    margin:0; /* removes gap at top of page */
+}
+
+
+.header-column {
+    font-size: 28pt;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: rgb(59, 112, 185);
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    color: black;
+    padding: 20px 0;
+    background-color: #36647F;
+    border-top: 1px solid #dbe3e3;
+}
+
+/* -- Global rules end -- */
