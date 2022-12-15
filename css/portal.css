@@ -2,25 +2,27 @@
 
 /* ------------------------------------ */
 /* PHONE */
-@media (max-width: 640px) {
+@media (max-width: 400px) {
     .background {
       background-image: url("../images/goat1.jpg");
       height: 400px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;  
+      overflow: auto;
     }
 }
 
 /* TABLET */
-@media (min-width: 641px) and (max-width:999px) {
+@media (min-width: 401px) and (max-width:999px) {
     .background {
       background-image: url("../images/house1.jpg");
       height: 500px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-  
+      overflow: auto;
+
     }
 }
 
@@ -32,7 +34,8 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-  
+      overflow: auto;
+
     }
 }
 
@@ -58,12 +61,12 @@ h2.subheader {
     font-weight: normal;
     line-height: 3em;
     justify-content: center;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    /*padding-left: 2.4rem;*/
+    /*padding-right: 2.4rem;*/
     text-align: center;
-    font-size: 54pt;
+    font-size: 50pt;
     color: #f8f7f5;
-    font-family: fantasy, 
+    font-family: fantasy, sans-serif;
 }
 
 /* ----- Content Box -----*/
